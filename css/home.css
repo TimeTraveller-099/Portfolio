@@ -10,7 +10,7 @@
     --bg1: rgb(65, 9, 129);
     --bg2: #021b79;
     --light: #e6e6e6;
-    --darkyellow: #dabc93;
+    --darkyellow: #312e2b;
     --grey: #808080;
     --blue: #1870d5;
 }
@@ -25,20 +25,11 @@
 .home_icon {
     cursor: pointer;
     position: absolute;
-    top: 6%;
-    left:5%;
+    top: 5.2%;
+    left: 4%;
     z-index: 100;
     width: 30px;
     height: 25px;
-}
-.close_icon {
-    cursor: pointer;
-    position: absolute;
-    top: 3.7%;
-    left: 3.7%;
-    z-index: 100;
-    width: 40px;
-    display: none;
 }
 .contact {
     display: none;
@@ -55,7 +46,7 @@
         margin-top: 40px;
     }
     .header h1 {
-        font-size: 43px;
+        font-size: 30px;
     }
     .header .title {
         margin-bottom: 30px;
@@ -86,13 +77,17 @@
         text-decoration: none;
         font-size: 25px;
         font-family: montserrat;
-        color: #fff;
+        color: rgb(209, 209, 209);
+        transition: .3s;
     }
     nav ul li a:hover {
-        transform: scale(2);
+        color: #fff;
     }
     .contact {
         display: block ;
+    }
+    .header_img {
+        display: none;
     }
 }
 
@@ -252,5 +247,8 @@
 @media (max-width: 768px) {
     .intro_content {
         width: 88%;
+    }
+    .content_centre h1, .content_centre h2 {
+        font-size: 250%;
     }
 }
