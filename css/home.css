@@ -23,13 +23,8 @@
     list-style: none;
 }
 .home_icon {
-    cursor: pointer;
-    position: absolute;
-    top: 5.2%;
-    left: 4%;
-    z-index: 100;
-    width: 30px;
-    height: 25px;
+    margin-top: 10px;
+    border: 1px solid black;
 }
 .contact {
     display: none;
@@ -47,6 +42,7 @@
     }
     .header h1 {
         font-size: 30px;
+        border: 1px solid black;
     }
     .header .title {
         margin-bottom: 30px;
@@ -88,6 +84,13 @@
     }
     .header_img {
         display: none;
+    }
+    .title {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        place-items: center;
+        border: 1px solid black;
     }
 }
 
