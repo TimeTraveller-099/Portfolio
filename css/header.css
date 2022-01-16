@@ -19,13 +19,24 @@
     font-size: 28px;
     color: #22077c;
 }
+.header h1 a {
+    text-decoration: none;
+    cursor: pointer;
+}
 .header nav ul li {
     list-style: none;
 }
+.title {
+    cursor: pointer;
+}
 .home_icon {
     margin-top: 10px;
-    z-index: 100;
+    z-index: 1000;
     cursor: pointer;
+    transition: .3s;
+}
+.home_icon:hover {
+    transform: scale(1.1);
 }
 .contact {
     display: none;
@@ -62,6 +73,7 @@
         display: none;
         justify-content: center;
         align-items: center;
+        z-index: 10;
     }
     nav ul {
         height: 60%;
@@ -76,7 +88,7 @@
         color: rgb(209, 209, 209);
         transition: .3s;
     }
-    nav ul li a:hover {
+    .header nav ul li a:hover {
         color: #fff;
     }
     .contact {
