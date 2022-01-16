@@ -24,6 +24,8 @@
 }
 .home_icon {
     margin-top: 10px;
+    z-index: 100;
+    cursor: pointer;
 }
 .contact {
     display: none;
