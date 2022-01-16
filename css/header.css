@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Ubuntu&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main: rgb(131, 0, 192);
+    --bg: linear-gradient(to right, #0575e6, #021b79);
+    --bg1: rgb(65, 9, 129);
+    --bg2: #021b79;
+    --light: #e6e6e6;
+    --grey: #808080;
+    --blue: #1870d5;
+    --yellow: rgb(253, 249, 234);
+}
+.header h1 {
+    font-family: ubuntu;
+    font-size: 28px;
+    color: #22077c;
+}
+.header nav ul li {
+    list-style: none;
+}
+.home_icon {
+    margin-top: 10px;
+    z-index: 100;
+    cursor: pointer;
+}
+.contact {
+    display: none;
+}
+
+/*----Small NavBar----*/
+@media (max-width: 968px) {
+    .header_img {
+        max-width: 80px;
+        margin-right: 20px;
+    }
+    .header {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .header h1 {
+        font-size: 30px;
+    }
+    .header .title {
+        margin-bottom: 30px;
+    }
+    .header .title img {
+        margin-bottom: 10px;
+    }
+    .btn {
+        display: none;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        background: var(--bg2);
+        height: 100%;
+        width: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul {
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    nav ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        font-family: montserrat;
+        color: rgb(209, 209, 209);
+        transition: .3s;
+    }
+    nav ul li a:hover {
+        color: #fff;
+    }
+    .contact {
+        display: block ;
+    }
+    .header_img {
+        display: none;
+    }
+    .title {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 6%;
+        align-items: center;
+        place-items: center;
+    }
+}
+
+/*----Large NavBar----*/
+@media (min-width: 968px) {
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 20px;
+        border-bottom: 1px solid rgb(192, 192, 192);
+    }
+    .header .title {
+        display: flex;
+        align-items: center;
+    }
+    .header_img {
+        max-width: 50px;
+        margin-right: 20px;
+    }
+    .home_icon, .close_icon {
+        display: none;
+    }
+    .header nav {
+        display: flex !important;
+        align-items: center;
+        width: 40%;
+    }
+    .header nav ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .header nav ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        font-family: montserrat;
+        color: var(--grey);
+        position: relative;
+    }
+    .header nav ul li a:hover {
+        color: var(--bg1);
+        font-weight: 700;
+    }
+    .header nav ul li a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: -15%;
+        left: 0;
+        background-color: var(--bg1);
+        transition: 0.2s linear;
+    }
+    .header nav ul li a:hover:after {
+        transform: scaleX(1);
+    }
+    .loginbtn {
+        padding: 7px 18px;
+        border-radius: 20px;
+        font-size: 17px;
+        font-family: montserrat;
+        cursor: pointer;
+        color: var(--bg1);
+        border: 2px solid var(--bg1);
+        background: transparent;
+        transition: .2s;
+    }
+    .loginbtn:hover {
+        background: var(--bg1);
+        color: #fff;
+    }
+}

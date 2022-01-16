@@ -1,0 +1,40 @@
+@import 'header.css';
+
+/*________ABOUT ME PAGE________*/
+.aboutme {
+    padding-top: 50px;
+    background-color: var(--yellow);
+}
+.aboutme >  h1 {
+    font-size: 45px;
+    font-family: montserrat;
+    margin-left: 6%;
+    color: var(--grey);
+}
+.bio {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.bio_content {
+    border: 1px solid black;
+    width: 750px;
+}
+.bio_content h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+.bio_content p {
+    font-family: calibri;
+    font-size: 21px;
+}
+.my_image {
+    width: 500px;
+    border: 1px solid black;
+}
+.my_image img {
+    width: 100%;
+}
