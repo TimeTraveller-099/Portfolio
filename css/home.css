@@ -24,7 +24,6 @@
 }
 .home_icon {
     margin-top: 10px;
-    border: 1px solid black;
 }
 .contact {
     display: none;
@@ -90,7 +89,6 @@
         justify-content: space-around;
         align-items: center;
         place-items: center;
-        border: 1px solid black;
     }
 }
 
