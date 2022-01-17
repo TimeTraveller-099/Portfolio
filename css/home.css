@@ -85,7 +85,10 @@
     .intro_content {
         width: 88%;
     }
-    .content_centre h1, .content_centre h2 {
-        font-size: 250%;
+    .content_centre h1 {
+        font-size: 150%;
+    }
+    .content_centre h2 {
+        font-size: 194%;
     }
 }
