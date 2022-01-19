@@ -7,24 +7,24 @@
 
 /*______________ABOUT SECTION______________*/
 .about {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     font-family: calibri;
     margin-top: 40px;
 }
-@media (max-width: 768px) {
+@media (max-width: 968px) {
     .about {
         width: 88%;
     }
 }
 .about .aboutme {
-    font-size: 43px;
+    font-size: 35px;
     color: var(--bg1);
 }
 .about h2 {
-    color: rgb(0, 88, 221);
+    color: rgb(255, 195, 0);
     font-size: 32px;
-    margin: 40px 0 30px 0px;
+    margin: 30px 0 30px 0px;
 }
 .about p {
     font-size: 21px;
@@ -98,6 +98,9 @@
     flex-direction: column;
     align-items: center;
 }
+.title1 h1 {
+    margin: 10px 0 10px 0;
+}
 .lan img {
     width: 200px;
     height: 200px;
@@ -110,8 +113,93 @@
 @media (max-width: 740px) {
     .lan {
         flex-wrap: wrap;
-        max-width: 440px;
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 30px;
     }
+}
+
+/*__________Anime Section__________*/
+.anime {
+    width: 100%;
+}
+.row {
+    display: flex;  
+    max-width: 100%;
+    justify-content: center;  
+    flex-wrap: wrap;
+}
+.anime_content {
+    width: 100%;
+    text-align: center;
+}
+.anime_content h3 {
+    font-size: 24px;
+    font-family: calibri;
+    padding: 15px;
+}
+.anime_content img {
+    width: 100%;
+    display: block;
+}
+.anime_content h4 {
+    background: #212F3D;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.anime_content h4:hover {
+    background: #414b55;
+}
+.box1 {
+    border-radius: 5px;
+    flex: 1;
+    margin: 1%;
+    width: 100%;
+    border: 1px solid rgb(236, 236, 236);
+    box-shadow: 0 0 5px rgb(224, 224, 224);
+    position: relative;
+    cursor: pointer;
+    transition: .2s;
+}
+.box1:hover, .box2:hover {
+    box-shadow:  0 0 17px rgb(214, 214, 214);
+    transform: scale(1.009);
+}
+.box2 {
+    border-radius: 5px;
+    flex: 1;
+    margin: 1%;
+    width: 100%;
+    border: 1px solid rgb(236, 236, 236);
+    box-shadow: 0 0 5px rgb(224, 224, 224);
+    position: relative;
+    cursor: pointer;
+}
+@media (max-width: 968px) {
+    .box1, .box2 {
+        flex: 100%;
+        margin-bottom: 30px;
+    }
+}
+.watch {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.watch a {
+    font-size: 18px;
+    font-family: montserrat;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 25px;
+    width: 100%;
+    transition: background 1s ease-in-out 10ms;
+    background: linear-gradient(270deg, rgba(18,75,148,1) 0%, rgba(57,144,255,1) 50%, rgba(18,75,148,1) 100%);
+}
+a:hover {
+    background: linear-gradient(270deg, rgba(18,75,148,1) 0%, rgba(57,144,255,1) 98%);
 }
