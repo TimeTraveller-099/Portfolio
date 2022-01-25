@@ -57,6 +57,9 @@ p {
 
 /*----Small NavBar----*/
 @media (max-width: 968px) {
+    p {
+        font-size: 18px !important;
+    }
     .line {
         display: block;
         width: 100%;
