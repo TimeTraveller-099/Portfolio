@@ -1,0 +1,52 @@
+@import "header.css";
+@import "footer.css";
+
+.projects {
+    width: 65%;
+    margin: 0 auto;
+    font-family: calibri;
+    margin-top: 40px;
+}
+@media (max-width: 968px) {
+    .projects {
+        width: 88%;
+    }
+}
+.projects h1 {
+    font-size: 39px;
+    color: rgb(122, 43, 226);
+}
+.projects h2 {
+    color: rgb(77, 77, 77);
+    font-size: 29px;
+}
+.projects_img {
+    margin-top: 25px;
+    width: 100%;
+}
+.cfm, .papc, .caw, .pfw {
+    margin-top: 30px;
+}
+.projects p {
+    margin-top: 20px;
+}
+.projects a {
+    padding: 20px 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background: rgb(68, 136, 29);
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    min-width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    transition: .3s;
+}
+.projects a:hover {
+    background: rgb(83, 173, 31);
+}
+.projects i {
+    margin-right: 10px;
+}

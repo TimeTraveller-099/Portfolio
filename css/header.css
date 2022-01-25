@@ -13,9 +13,22 @@
     --grey: #808080;
     --blue: #1870d5;
     --yellow: rgb(253, 249, 234);
+    --para: rgb(56, 56, 56);
+} 
+p {
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--para);
 }
 .line {
     display: none;
+}
+.line2 {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    background-color: rgb(192, 192, 192);
 }
 .header h1 {
     font-family: ubuntu;
