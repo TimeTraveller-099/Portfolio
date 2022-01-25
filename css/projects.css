@@ -4,7 +4,7 @@
 .projects {
     width: 65%;
     margin: 0 auto;
-    font-family: calibri;
+    font-family: Lato;
     margin-top: 40px;
 }
 @media (max-width: 968px) {
