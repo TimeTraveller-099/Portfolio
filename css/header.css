@@ -92,7 +92,7 @@ p {
     nav {
         position: fixed;
         top: 0;
-        background: var(--bg2);
+        background: rgb(82, 82, 82);
         height: 100%;
         width: 100%;
         display: none;
