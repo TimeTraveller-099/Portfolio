@@ -4,7 +4,7 @@
 .projects {
     width: 65%;
     margin: 0 auto;
-    font-family: Lato;
+    font-family: calibri;
     margin-top: 40px;
 }
 @media (max-width: 968px) {
@@ -33,6 +33,7 @@
 .projects a {
     padding: 10px 20px;
     font-size: 20px;
+    font-family: "Lato";
     text-decoration: none;
     color: white;
     background: rgb(68, 136, 29);
