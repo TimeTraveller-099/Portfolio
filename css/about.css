@@ -5,8 +5,9 @@
 .about {
     width: 70%;
     margin: 0 auto;
-    font-family: calibri;
+    font-family: Lato;
     margin-top: 40px;
+    max-width: 850px;
 }
 @media (max-width: 968px) {
     .about {
@@ -16,6 +17,7 @@
 .about .aboutme {
     font-size: 35px;
     color: var(--bg1);
+    font-weight: bolder;
 }
 .about h2 {
     color: rgb(255, 195, 0);
