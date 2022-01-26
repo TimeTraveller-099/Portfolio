@@ -93,3 +93,52 @@
         font-size: 194%;
     }
 }
+
+
+/* -------------CLIENTS -------------*/
+
+.clients {
+   width: 78%;
+   margin: 0 auto;
+   margin-top: 60px;
+   font-family: Lato;
+}
+@media (max-width: 968px) {
+    .clients {
+        width: 88%;
+    }
+}
+.clients h2 {
+    margin-bottom: 30px;
+    font-size: 29px;
+    font-weight: 900;
+    color: rgb(134, 10, 206);
+}
+.clients_icons {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icon_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    padding: 20px;
+}
+.icon_div:hover {
+    transform: scale(1.1);
+}
+.icon_div i {
+    margin-right: 10px;
+}
+.one {
+    flex: 1;
+}
+.two {
+    flex: 1;
+}
